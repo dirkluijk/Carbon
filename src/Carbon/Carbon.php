@@ -211,6 +211,7 @@ class Carbon extends DateTime
    public static function today($tz = null)
    {
       return static::now($tz)->startOfDay();
+      //test
    }
 
    /**
